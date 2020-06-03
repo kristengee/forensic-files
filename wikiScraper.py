@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 import json
+import pandas as pd
+import numpy as np
 
 with open("forensic_files.json") as f:
     data = json.load(f)
@@ -12,19 +14,22 @@ soup = BeautifulSoup(website_url,'html.parser')
 
 My_table = soup.find('table',{'class':'wikitable plainrowheaders'})
 
-titles = My_table.findAll('td',{'class':'summary'})
-descriptions = My_table.findAll('td', {'class':'description'})
+season = []
+no_in_season = []
+title = []
+descriptions = [d.text for d in My_table.find_all('tr', {'class':'expand-child'})]
 
-name = [t.text for t in titles]
-desc = [d.text for d in descriptions]
 
+for row in My_table.find_all('tr', {'class': 'vevent'}):
+    cells = row.findAll('td')
+    no_in_season.append(cells[0].text)
+    season.append(1)
+    title.append(cells[1].text)
 
-zipped = [list(a) for a in zip(name, desc)]
-print(len(zipped))
+zipped = [list(a) for a in zip(season, no_in_season, title, descriptions)]
 
-filename = 'forensicfiles.csv'
-fields = ['Title', 'Description']
-with open(filename, 'w') as csvfile:
-    csvwriter = csv.writer(csvfile)
-    csvwriter.writerow(fields)
-    csvwriter.writerow(zipped)
+df = pd.DataFrame(title, columns=['Title'])
+df['Episode'] = no_in_season
+df['Season'] = season
+df['Description'] = descriptions
+df.to_csv('forensicfiles.csv')
