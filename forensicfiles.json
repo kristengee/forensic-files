@@ -6,7 +6,14 @@
         "Netflix Collection": 4,
         "Netflix Episode": 33,
         "Description": "In November 1986, Helle Crafts, a flight attendant residing in Newtown, Connecticut, is reported missing, and police suspect her pilot husband, Richard, of foul play. A snowplow driver thinks that he saw the suspect using a wood chipper near a river at 4:20 a.m. in the middle of a snowstorm, shortly before he reported his wife as missing. In a small eddy downstream, police find fragments of what would be identified as human bone, a fingernail, a tooth, and a few strands of hair. This was Connecticut's first murder conviction without a body.",
-        "Rating": "7.6"
+        "Rating": "7.6",
+        "Year": 1986,
+        "Location": "Connecticut",
+        "Victims": "flight attendant",
+        "Perps": "pilot",
+        "Relationship": "marriage",
+        "How": "wood chipper",
+        "Tags": []
     },
     {
         "Title": "The Magic Bullet",
@@ -15,7 +22,14 @@
         "Netflix Collection": 4,
         "Netflix Episode": 34,
         "Description": "At the Dallas, Texas 'Pistol & Revolver' club in 1991, Leland Harold \"Trey\" Cooley, a young spectator, was watching a shooting competition while seated behind an air gun range. He was struck and killed by a stray bullet. Forensic scientists were able to pinpoint the origin and path of bullet, which exposed the faulty design of the range.",
-        "Rating": "7.4"
+        "Rating": "7.4",
+        "Year": 1991,
+        "Location": "Dallas",
+        "Victims": "spectator",
+        "Perps": null,
+        "Relationship": null,
+        "How": "stray bullet",
+        "Tags": []
     },
     {
         "Title": "The House that Roared",
@@ -24,7 +38,14 @@
         "Netflix Collection": 4,
         "Netflix Episode": 35,
         "Description": "In 1992, Caren Campano disappears from her Oklahoma City, Oklahoma home, and the explanation of her husband Chris doesn't hold up. Police find a large stain on the Campano's bedroom carpet. They perform an eerie chemical test that reveals a room spattered with blood which, when cleaned off, could not be seen by the naked eye. Complex 'reverse paternity' tests of Caren's relatives match her blood type to the blood on the carpet. The evidence convicts Chris Campano of murder, even though the body wasn't found until a year later.",
-        "Rating": "6.5"
+        "Rating": "6.5",
+        "Year": 1992,
+        "Location": "Oklahoma City",
+        "Victims": "wife",
+        "Perps": "husband",
+        "Relationship": "marriage",
+        "How": null,
+        "Tags": []
     },
     {
         "Title": "The Footpath Murders",
@@ -33,7 +54,14 @@
         "Netflix Collection": -1,
         "Netflix Episode": -1,
         "Description": "English detectives team up with a pioneering scientist to solve a case of sexual assault and serial murder. In 1983, a quiet country village in Leicestershire County, England is gripped with fear as authorities search for the killer of 15-year-old Lynda Mann. Clueless, they start again when Dawn Ashworth is killed three years later. They enlist the help of Dr. Alec Jeffreys, a molecular biologist who uses his breakthrough technique of genetic fingerprinting to rule out one suspect by comparing his DNA with that of semen found on the victims' bodies. Police set up a DNA dragnet to trap and convict the real killer, but are stymied when Richard Buckland confesses to the crime and his DNA does not match. Later, it is discovered that the true killer, Colin Pitchfork, had avoided giving a DNA sample during the dragnet and this brings the focus on him. This 1986 murder case is the first to use DNA as evidence in a criminal case.",
-        "Rating": "7.5"
+        "Rating": "7.5",
+        "Year": 1983,
+        "Location": "England",
+        "Victims": "young women",
+        "Perps": "serial murderer",
+        "Relationship": null,
+        "How": null,
+        "Tags": ["DNA"]
     },
     {
         "Title": "Planted Evidence",
@@ -42,7 +70,14 @@
         "Netflix Collection": 4,
         "Netflix Episode": 36,
         "Description": "In 1992, single mother Denise Johnson is found dead in a deserted area outside of Phoenix, Arizona. Local investigators ask a molecular geneticist to pick out a tree in a 'lineup' when unidentified seed pods are found in suspect Mark Bogan's truck. The judge rules into evidence DNA profiles linking the pods to a tree near where the body was found. This is the first US case where plant DNA was used to convict a criminal.",
-        "Rating": "6.3"
+        "Rating": "6.3",
+        "Year": 1992,
+        "Location": "Phoenix",
+        "Victims": "single mother",
+        "Perps": null,
+        "Relationship": null,
+        "How": null,
+        "Tags": ["plant DNA"]
     },
     {
         "Title": "Southside Strangler",
@@ -51,7 +86,14 @@
         "Netflix Collection": 8,
         "Netflix Episode": 1,
         "Description": "FBI psychological profiling and DNA evidence identify Timothy Wilson Spencer, who raped and strangled five young women in Virginia from 1984 through 1988. The U.S. criminal justice system's first use of DNA profiling in a serial murder case frees an innocent man after he spent two years in prison and convicts the real killer.",
-        "Rating": "7.3"
+        "Rating": "7.3",
+        "Year": 1984,
+        "Location": "Virginia",
+        "Victims": "young women",
+        "Perps": "serial rapist/killer",
+        "Relationship": null,
+        "How": "strangulation",
+        "Tags": ["wrongful conviction"]
     },
     {
         "Title": "Legionnaires' Disease",
@@ -60,7 +102,14 @@
         "Netflix Collection": 8,
         "Netflix Episode": 2,
         "Description": "In 1976 when 180 Legionnaires contract pneumonia-like symptoms after a convention in Philadelphia, Pennsylvania and 29 of them die, doctors and scientists are mystified. The determination of one scientist helps to determine the cause and likely vector of this deadly disease now known as Legionnaires' disease. This is one of the most famous medical detective stories.",
-        "Rating": "6.8"
+        "Rating": "6.8",
+        "Year": 1976,
+        "Location": "Philadelphia",
+        "Victims": "180 legionnaires",
+        "Perps": null,
+        "Relationship": null,
+        "How": "disease",
+        "Tags": ["Legionnaires disease"]
     },
     {
         "Title": "The Wilson Murder",
@@ -69,7 +118,14 @@
         "Netflix Collection": 4,
         "Netflix Episode": 37,
         "Description": "In 1992, Huntsville, Alabama eye doctor Jack Wilson is found dead by his wife Betty Wilson, having been beaten, stabbed and lying in a pool of blood with a baseball bat nearby. Police arrest an itinerant painter\/handyman, James Dennison White, who is found with the doctor's credit cards. He accuses the doctor's unfaithful wife and her twin sister, Peggy Lowe, of hiring him to commit the murder. The wife is sent to prison, but at her sister's trial, defense attorneys bring in a forensic expert who testifies that the crime could not have been committed the way the painter said. The sister is acquitted. But the wife remains in prison, and the mystery goes unsolved.",
-        "Rating": "6.6"
+        "Rating": "6.6",
+        "Year": 1992,
+        "Location": "Alabama",
+        "Victims": "husband",
+        "Perps": "wife and her sister",
+        "Relationship": "marriage",
+        "How": "beaten and stabbed",
+        "Tags": ["unsolved"]
     },
     {
         "Title": "Deadly Neighborhoods",
@@ -78,7 +134,14 @@
         "Netflix Collection": -1,
         "Netflix Episode": -1,
         "Description": "Troubling clusters of deadly cancer cases strike concerned communities across the country. In 1987, residents of Maryvale, a Phoenix suburb, realize that too many children are fatally stricken with leukemia. And, on Meadow Street in Guilford, Connecticut, there is a disproportionate amount of illness, including four cases of brain cancer which garners national attention in 1990. Modern environmental agents such as buried poisons and electrical substations are found... Could these be the culprits?",
-        "Rating": "6.2"
+        "Rating": "6.2",
+        "Year": 1996,
+        "Location": "Phoenix and Connecticut",
+        "Victims": "children",
+        "Perps": "cancer",
+        "Relationship": "",
+        "How": "cancer",
+        "Tags": ["cancer"]
     },
     {
         "Title": "Insect Clues",
@@ -87,7 +150,14 @@
         "Netflix Collection": 4,
         "Netflix Episode": 38,
         "Description": "In July 1988, drifter Sandra Cwik was murdered in Buckman Springs, California, outside of San Diego. Abandoned in a remote area, her body wasn\u2019t discovered for several days and was covered with maggots. By analyzing the species of fly discovered at the recovery site, forensic entomologist David Faulkner was able to provide the compelling time-of-death evidence that convicted serial rapist\/killer Ronald Porter.",
-        "Rating": "6.6"
+        "Rating": "6.6",
+        "Year": 1988,
+        "Location": "San Diego",
+        "Victims": "woman",
+        "Perps": "serial rapist/killer",
+        "Relationship": null,
+        "How": null,
+        "Tags": ["maggots"]
     },
     {
         "Title": "Outbreak",
@@ -96,7 +166,14 @@
         "Netflix Collection": 4,
         "Netflix Episode": 39,
         "Description": "In 1985, alarmingly high levels of thyroid hormones pump through the systems of over 100 residents of South Dakota and Minnesota. A similar case had occurred in Nebraska in April 1984. Investigators study one family who all got sick, except their 12-year-old son who is a vegetarian. It seems that when drug companies started manufacturing synthetic thyroid hormones, they stopped buying thyroid tissue from butchers who did not trim these parts, but rather sold them as 'extra lean beef.' The outcome: the USDA bans meat plants from using meat in or near the gullet for beef and pork products.",
-        "Rating": "6.8"
+        "Rating": "6.8",
+        "Year": 1985,
+        "Location": "America",
+        "Victims": "over 100 people",
+        "Perps": "thyroid tissue",
+        "Relationship": null,
+        "How": null,
+        "Tags": []
     },
     {
         "Title": "The List Murders",
@@ -105,7 +182,14 @@
         "Netflix Collection": 3,
         "Netflix Episode": 1,
         "Description": "On November 9, 1971, John List left a note with the bodies of his mother, wife, and three children in his Westfield, New Jersey mansion ballroom, turned on funeral organ music, and disappeared. Eighteen years later, all detectives had to work from was an outdated photograph of List. In 1989, the television series \u201cAmerica's Most Wanted\u201d commissioned an age-scaled bust of List to aid viewers in identifying the confessed murderer. Frank Bender, a nationally-recognized artist and sculptor, worked with forensic psychologist Richard Walter to develop a profile of the aging List. The final bust was so keenly accurate that 350 viewers called with tips, one of which led to List's arrest in Richmond, Virginia.",
-        "Rating": "8.3"
+        "Rating": "8.3",
+        "Year": 1971,
+        "Location": "New Jersey",
+        "Victims": null,
+        "Perps": "John List",
+        "Relationship": "family",
+        "How": null,
+        "Tags": ["famous"]
     },
     {
         "Title": "Raw Terror",
@@ -114,7 +198,14 @@
         "Netflix Collection": -1,
         "Netflix Episode": -1,
         "Description": "Damion Heersink, an eleven-year-old boy from Dothan, Alabama, almost died in 1992 after eating an improperly cooked hamburger teeming with E-Coli. Escherichia coli bacteria (E-coli) can be found in meats, in milk, and in water. When food is properly processed, prepared, and stored, E-Coli are harmless. But in the absence of these simple precautions, E-Coli can have deadly consequences.",
-        "Rating": "6.8"
+        "Rating": "6.8",
+        "Year": 1992,
+        "Location": "Alabama",
+        "Victims": "11 year-old boy",
+        "Perps": "e-coli",
+        "Relationship": null,
+        "How": "food poisoning",
+        "Tags": []
     },
     {
         "Title": "The Common Thread",
